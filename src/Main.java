@@ -29,7 +29,7 @@ public class Main {
         int icecreamWeight = 100;
         int eggs = 4;
         int eggsWeight = 70;
-        int allWeight = bananas * weightBananas + milk * milkWeight + icecream + icecreamWeight + eggs * eggsWeight;
+        int allWeight = bananas * weightBananas + milk * milkWeight + icecream * icecreamWeight + eggs * eggsWeight;
         double allWeightKg = allWeight /1000.0;
         System.out.println("Общий вес спорт-завтрака " + allWeight + " грамм.");
         System.out.println("Общий вес спорт-завтрака " + allWeightKg + " кг.");
